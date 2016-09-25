@@ -8,4 +8,5 @@ I used grunt for the following tasks
 For installing dependencies: npm install and bower install
 
 For running the server, watch changes and compile sass: grunt serve
+
 Local server: localholst:3000
