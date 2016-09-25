@@ -1,0 +1,111 @@
+.signup .navbar {
+  background-color: transparent;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0; }
+
+.signup .navbar a.logo-hubgets {
+  margin-left: 0; }
+
+header.row-fluid {
+  background: #00b5ef;
+  padding: 90px 0 120px;
+  box-shadow: inset 0 -10px 17px -10px #0873a1, inset 0 7px 17px -11px; }
+  header.row-fluid h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold; }
+  header.row-fluid p {
+    color: #b7e5f4;
+    font-size: 18px; }
+
+.signup .register-icon {
+  position: relative;
+  top: -65px; }
+  .signup .register-icon img {
+    padding: 30px;
+    border-radius: 60px;
+    box-shadow: 0px 5px 15px -7px #0873a1;
+    background: url(../images/register_icon.png) white no-repeat center; }
+
+.signup section.row-fluid {
+  background: #f7f7f7;
+  padding-bottom: 100px; }
+  .signup section.row-fluid .left-register {
+    background: white;
+    box-shadow: 0px 0px 5px -2px #0873a1;
+    padding-bottom: 20px; }
+  .signup section.row-fluid .form-hubgets {
+    position: relative;
+    top: -30px; }
+    .signup section.row-fluid .form-hubgets input:focus:invalid {
+      background-color: #fde7e9;
+      border-color: darkred; }
+
+.form-control {
+  height: 47px; }
+
+.signup .form-hubgets input.btn {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 40px; }
+
+.signup .right-register {
+  padding-top: 130px; }
+  .signup .right-register .features {
+    padding-bottom: 30px;
+    display: table; }
+    .signup .right-register .features img {
+      display: table-cell;
+      border: 1px solid #00b5ef;
+      padding: 3px;
+      border-radius: 5px; }
+    .signup .right-register .features p {
+      padding-left: 20px;
+      font-size: 16px;
+      display: table-cell;
+      line-height: 23px;
+      vertical-align: middle; }
+    .signup .right-register .features .help-info {
+      padding-left: 20px;
+      display: table-cell;
+      vertical-align: middle; }
+    .signup .right-register .features a.btn {
+      display: block;
+      font-size: 16px;
+      padding: 0; }
+      .signup .right-register .features a.btn span {
+        color: black;
+        font-size: 18px; }
+  .signup .right-register .help img {
+    border: none; }
+
+.signup footer.row-fluid {
+  background: #0873a1;
+  padding: 50px 0;
+  color: #b7e5f4; }
+  .signup footer.row-fluid h5 {
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 10px; }
+  .signup footer.row-fluid a {
+    font-size: 16px;
+    padding: 3px 0;
+    color: #b7e5f4; }
+    .signup footer.row-fluid a img {
+      padding-left: 0; }
+  .signup footer.row-fluid a:hover {
+    color: white;
+    text-decoration: none; }
+
+.signup .copy {
+  padding-top: 15px; }
+
+@media screen and (max-width: 767px) {
+  .form-group label {
+    display: inline-block !important; }
+  .signup .right-register {
+    padding-top: 60px; }
+  .signup section.row-fluid {
+    padding-bottom: 20px; } }

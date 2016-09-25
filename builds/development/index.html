@@ -17,14 +17,145 @@
     <body class="signup">
         <div class="row-fluid">
             <div class="container">
-                <div class="row">
-                    <h1 class="hubgets-blue">Hello, world asd!</h1>
-                </div><!-- row end -->
+                <nav class="navbar navbar-default white-header">
+                    <div class="navbar-header">
+                        <a class="logo-hubgets" rel="home" href="#" title="Hubgets">
+                            <img src="images/logo-hubgets-simple.png">
+                        </a>
+                    </div><!-- Nav Header end -->
+                </nav><!-- Nav end -->
             </div><!-- container end -->
         </div><!-- row-fluid end -->
+        <header class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="text-center">Create organization</h1>
+                        <p class="text-center">
+                            Small or large, any team will increase productivity with Hubgets.<br/>
+                            It allows teams to filter noise and focus on results.
+                        </p>
+                    </div>
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </header><!-- row-fluid end -->
+        <section class="row-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 left-register">
+                        <div class="register-icon text-center">
+                            <img src="images/register_icon.png">
+                        </div>
+                        <div class="row">
+                            <div class="form-hubgets col-sm-offset-1 col-sm-10">
+                                <form method="post" >
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <label for="firstname">First name</label>
+                                            <input type="text" name="firstname" class="form-control" required >
+                                        </div>
+                                        <div class="form-group col-sm-6">
+                                            <label for="lastname">Last name</label>
+                                            <input type="text" name="lastname" class="form-control" required >
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="company">Company</label>
+                                        <input type="text" name="company" class="form-control" required >
+                                    </div>
+                                    <div class="form-group">
+                                        <label  for="email">E-mail address</label>
+                                        <input type="email" name="email" class="form-control" required oninvalid="this.setCustomValidity('Invaild email address');">
+                    
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="register" value="REGISTER" class="btn btn-primary">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-sm-offset-1 col-sm-5 col-xs-12 right-register">
+                        <div class="features">
+                            <img src="images/channels_icon.png" title="channels" alt="channels">
+                            <p>
+                                Centralizes communication channels and reduces overhead.
+                            </p>
+                        </div>
+                        <div class="features">
+                            <img src="images/bubbles-white.png" title="messaging" alt="messaging">
+                            <p>
+                                Brings together instant messaging, voice and video communicaiton in the browser
+                            </p>
+                        </div>
+                        <div class="features">
+                            <img src="images/cogs_icon.png" title="work" alt="work">
+                            <p>
+                                Captures information across the organization, retains the knowledge, analyzes and improves it
+                            </p>
+                        </div>
+                        <div class="features help">
+                            <img src="images/help_icon.png">
+                            <div class="help-info">
+                                <a href="tel:+1845894123" class="btn"><span>+1 845 894 123</span></a>
+                                <a href="mailto:mail@reminder.ro" target="_top" class="btn">help@hubgets.com</a>
+                            </div>
+                            
+                        </div>
+                    </div> 
+                </div><!-- row-fluid end -->
+            </div><!-- container end -->
+        </section><!-- row-fluid end -->
+        <footer class="row-fluid">
+            <div class="container">
+                <div class="row no-margin">
+                    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs category-footer">
+                        <a rel="home" href="#" title="Hubgets">
+                            <img src="images/hubgets_footer.png" alt="Hubgets" class="logo-hubgets">
+                        </a>
+                    </div>
+                    
+                        
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 category-footer">
+                                <h5>Our Company</h5>
+                                <ul>
+                                    <li><a href="#" title="About us" class="btn">About us</a></li>
+                                    <li><a href="#" title="Blog" class="btn">Blog</a></li>
+                                    <li><a href="#" title="We are hiring" class="btn">We are hiring</a></li>
+                                    <li><a href="#" title="Terms of Service" class="btn">Terms of Service</a></li>
+                                    <li><a href="#" title="Contact us" class="btn">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 category-footer">
+                                <h5>Hubgets</h5>
+                                <ul>
+                                    <li><a href="#" title="Join the program" class="btn">Join the program</a></li>
+                                    <li><a href="#" title="Features" class="btn">Features</a></li>
+                                    <li><a href="#" title="Current status" class="btn">Current status</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 category-footer">
+                                <h5>Social</h5>
+                                <ul>
+                                    <li><a href="#" title="Twitter" target="_blank"><img src="images/twitter.png" class="btn">Twitter</a></li>
+                                    <li><a href="#" title="Youtube" target="_blank"><img src="images/youtube.png" class="btn">Youtube</a></li>
+                                    
+                                </ul>
+                            </div>
+                       
+                    
+                </div><!-- row end -->
+                <div class="row">
+                    <div class="col-sm-12">
+                    <p class="copy">&copy;Copyrights 2015 Hubgets, Inc</p>
+                    </div>
+                </div>
+            </div><!--container end -->
+        </footer><!-- row-fluid end -->
      <!-- bower:js -->
      <script src="bower_components/jquery/dist/jquery.js"></script>
      <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+     <script src="js/script.js"></script>
      <!-- endbower -->
   </body>
 </html>

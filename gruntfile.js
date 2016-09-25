@@ -1,16 +1,7 @@
 module.exports = function(grunt) {
   grunt.initConfig({
         
-    concat : {
-      options: {
-        separator: '\n\n//------------------------------------------\n',
-        banner: '\n\n//------------------------------------------\n'
-      },
-      dist : {
-        src: ['components/scripts/*.js'],
-        dest: 'builds/development/js/script.js'
-      }
-    }, //concat
+   
 
     sass: {
       dist: {
@@ -50,19 +41,18 @@ module.exports = function(grunt) {
         files: ['builds/development/**/*.html',
         'components/scripts/**/*.js',
         'components/sass/**/*.scss'],
-        tasks: ['concat', 'sass']
+        tasks: ['sass']
       }
     }
 
 
   }); //initConfig
 
-  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-wiredep');
 
-  grunt.registerTask('default', ['wiredep', 'concat', 'sass', 'connect', 'watch']);
+  grunt.registerTask('default', ['wiredep', 'sass', 'connect', 'watch']);
 
 }; //wrapper function
